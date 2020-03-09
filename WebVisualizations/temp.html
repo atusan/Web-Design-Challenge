@@ -13,7 +13,7 @@
 
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light navbar navbar-expand-lg navbar-light bg-lightb white navbar-padding">
-		<a class="navbar-brand" href="#" ><span class="latitude-caption" style="color: white;">Latitude</span></a>
+		<a class="navbar-brand" href="index.html" ><span class="latitude-caption" style="color: white;">Latitude</span></a>
 		  <ul class="navbar-nav ml-auto">
 		  <li class="nav-item dropdown">
 			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
@@ -28,7 +28,7 @@
 			<a href="comparison.html" class="nav-link">Comparision</a>
 		  </li>
 		  <li class="nav-item">
-			  <a href="data.html"  class="nav-link">Data</a>
+			  <a href="data.html" class="nav-link">Data</a>
 		  </li>
 		  </ul>
 	  </nav>
@@ -37,67 +37,76 @@
     <div class="container-fluid">
         <div class="page-header">
             <div class="jumbotron margin-bottom">
-                 <div class="row">
+                
+                    <div class="row">
                         <div class="left col-lg-8 col-md-8 col-xs-12 box">
-                            <h2 class="green">Summary: Latitude vs. Max Temperature</h2>
-                            <a href="temp.html"><img src="Resources/assets/images/Fig1.png" width= "300" height="300" class="img-responsive" alt="Latitude vs Temperature"></a>
-                            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, 
-                            we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                            
-                            After assembling the dataset, we used Matplotlib, to plot various aspects of the weather vs. latitude.
-                             Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This site provides the sourced data and visualizations created as part of the analysis, 
-                             as well as explanation and descriptions of any trends and correlations witnessed.
+                            <h2 class="green">Max Temperature</h2>
+                            <hr/>
+                            <img src="Resources/assets/images/Fig1.png"  class="img-responsive" alt="Latitude vs Temperature"></a>
+                            <p>The temperature increases for cities situated near the equator (0 degree latitude). 
+                            The highest temperatures are presented in cities between the Tropic of Cancer and Tropic of Capricorn.
+                            Furthermore, there is a sharp decrease in temperature for cities North of the equator.
                             </p>
                         </div>
                         
+                        
+                        
                         <div class="col-lg-4 col-md-4 col-xs-12 box">
                             <h2 class="green">Visualizations</h2>
+                            <hr/>
+                            <br/>
 
                             <div class="row">
                                 <div class="col-md-6 col-lg-6">
                                     <div class="thumbnail">
-                                            <a href=""><img src="Resources/assets/images/Fig1.png" class="img-responsive img-thumbnail" alt="Latitude vs Temperature"></a>
+                                            <img src="Resources/assets/images/Fig1.png" class="img-responsive img-thumbnail linked-thumbnail" alt="Latitude vs Temperature" ></a>
 
                                     </div>
                                 </div>
-
+                                   
                                 <div class="col-md-6 col-lg-6">
                                     <div class="thumbnail">
-                                            <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" class="img-responsive img-thumbnail" alt="Latitude vs Humnidity"></a>
-
+                                            <a href="humidity.html" data-toggle="tooltip" data-placement="top" title="Humidity"><img src="Resources/assets/images/Fig2.png" class="img-responsive img-thumbnail " alt="Latitude vs Humnidity"></a>
                                     </div>
                                 </div>
                             </div>
+                            <br/>
                             <div class="row">
                                 <div class="col-md-6 col-lg-6">
                                     <div class="thumbnail">
-                                            <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" class="img-responsive img-thumbnail" alt="Latitude vs Cloudiness"></a>
+                                            <a href="cloudiness.html" data-toggle="tooltip" data-placement="top" title="Cloudiness"><img src="Resources/assets/images/Fig3.png" class="img-responsive img-thumbnail" alt="Latitude vs Cloudiness"></a>
 
                                     </div>
                                 </div>
 
                                 <div class="col-md-6 col-lg-6">
                                     <div class="thumbnail">
-                                            <a href="wind_speed.html"><img src="Resources/assets/images/Fig4.png" class="img-responsive img-thumbnail" alt="Latitude vs Wind Speed"></a>
+                                            <a href="wind_speed.html" data-toggle="tooltip" data-placement="top" title="Wind Speed"><img src="Resources/assets/images/Fig4.png" class="img-responsive img-thumbnail" alt="Latitude vs Wind Speed"></a>
 
                                     </div>
                                 </div>
                             </div>
-                     </div>
-                 </div>
+
+                        </div>
+                    
+              
+                </div>
             </div>
           </div>
+        </div>
+
     </div>
 </body>
-
+<!-- Footer-->
 <div class="container-fluid"> 
+  
   <div class="progress">
     <div class="progress-bar bg-info" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
   </div>
 		<footer class="footer">
 			&copy; Copyright Coding Bootcamp 2020
-        </footer>
-</div>
+            </footer>
+        </div>
 
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
