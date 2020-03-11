@@ -1,0 +1,73 @@
+/* .box {
+    height: 400px;
+    padding: 20px;
+    color: #fff;
+    background: deepskyblue;
+  } */
+  .box{
+    padding: 20px;
+    background: white;
+    margin-top:1px;
+    /* margin-left:5px;
+    margin-right:5px; */
+    margin-bottom:3px;
+    /* align-content: center; */
+  }
+  
+  .skyblue {
+    background: deepskyblue;
+  }
+  .lightgrey{
+    background:lightgrey;
+  }
+  .white{
+    background:white;
+  }
+  .green{
+    color: rgb(99, 220, 212) !important;
+  }
+  
+  
+  .navbar-padding {
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+.margin-body{
+  margin-bottom: 900px;
+}
+  /* Stackoverflow preview fix, please ignore */
+  .navbar-nav {
+    flex-direction: row;
+  }
+  .margin-bottom{
+    margin-bottom:0 !important;
+  }
+
+  .nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+  }
+  
+  /* Fixes dropdown menus placed on the right side */
+  .ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+  }
+  .latitude-caption{
+      
+      margin-left:10px ;
+      background-color:rgb(99, 220, 212);
+      padding: 15px;
+      
+  }
+  .footer{
+    background-color: grey;
+    text-align: center;
+  }
+
+  .linked-thumbnail{
+    border-image: 5px;
+    border-color: rgb(99, 220, 212);
+    border-style: solid;
+  }
+ 
